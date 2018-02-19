@@ -215,7 +215,7 @@ public class ConnectFour {
 		for(int row = 0; row < _rowCount-3; row++)
 		{
 			//Check if 4 straight vertical 
-			for(int column = 0; column < _columnCount-3; column++)
+			for(int column = 0; column < _columnCount; column++)
 			{
 				int i = 1;
 				while (getBoard()[row][column] != null && getBoard()[row][column] == getBoard()[row+i][column])
